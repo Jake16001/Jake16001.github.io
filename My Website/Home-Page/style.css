@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #4287f5;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.header  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 60px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a {
+    position: relative;
+    font: 10px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: .3s;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+}
+
+span {
+    text-decoration: line-through;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 4rem;
+    margin-top: 60px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+.brandon-butch {
+    background-color: rgba(255, 255, 255, 0.6); /* White with 0.8 opacity (adjust as needed) */
+    backdrop-filter: blur(20px); /* Adjust the blur radius as needed */
+    padding: 30px;
+    border-radius: 60px; /* Adjusted border-radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 60px auto; /* Center the box horizontally */
+    max-width: 850px; /* Limit the maximum width of the box */
+}
+
+#brandonButch {
+    width: 65px;
+    border-radius: 50px;
+    float: right;
+    margin-top: -40px; /* Adjust the margin-top value */
+    margin-left: 80px; /* Adjust the margin-left value */
+}
+
+.macrumors {
+    background-color: rgba(255, 255, 255, 0.6); /* White with 0.8 opacity (adjust as needed) */
+    backdrop-filter: blur(20px); /* Adjust the blur radius as needed */
+    padding: 24px;
+    border-radius: 60px; /* Adjusted border-radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 60px auto; /* Center the box horizontally */
+    max-width: 850px; /* Limit the maximum width of the box */
+}
+
+#macrumorsimg {
+    width: 65px;
+    border-radius: 50px;
+    float: right;
+    margin-top: -20px; /* Adjust the margin-top value */
+    margin-left: 20px; /* Adjust the margin-left value */
+}
+
+.bxl-apple {
+font-size: 50px;
+color: black;
+}
+
+.newcomputer {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.whenstarted {
+    margin-top: 10rem;
+}
+
+#pythonimg {
+    width: 65px;
+}
+
+#htmlimg {
+    width: 65px;
+}
+
+#cssimg {
+    width: 65px;
+}
+
+#swiftimg {
+    width: 65px;
+}
+
+#scratchimg {
+    width: 65px;
+}
+
+.whatiwanttoknow {
+    margin-top: 4rem;
+}
+
+#javascriptimg {
+    width: 45px;
+}
+
+#javaimg {
+    width: 45px;
+}
+
+#goimg {
+    width: 65px;
+}
+
+#moreswiftimg {
+    width: 65px;
+}
+
+.expectwhen {
+    margin-top: 30px;
+}
